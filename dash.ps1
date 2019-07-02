@@ -33,3 +33,5 @@ $Dashboard = New-UDDashboard -Title "Processes" -Content {
 }
 
 Start-UDDashboard -Dashboard $Dashboard -Port 10000 -AutoReload
+
+## code based on https://poshtools.com/2018/11/13/dynamically-updating-controls-with-sync-udelement/
